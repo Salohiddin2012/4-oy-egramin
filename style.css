@@ -1,0 +1,354 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 31px 168px;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.uti{
+    width: 146px;
+height: 40px;
+border: 1px solid black;
+}
+
+nav a{
+    color: rgb(131, 125, 136);
+font-family: Karla;
+font-size: 13px;
+font-weight: 700;
+line-height: 15px;
+letter-spacing: 1.5px;
+text-align: center;
+text-decoration: none;
+}
+
+nav{
+    display: flex;
+    gap: 24px;
+}
+
+.red{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.btn-menyu{
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    display: none;
+}
+
+/* header tugadi */
+
+
+#hero{
+    padding: 31px 168px;
+    background-color: rgb(45, 38, 65);
+    width: 100%;
+}
+
+#hero .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#hero h1{
+    color: rgb(255, 255, 255);
+font-family: DM Serif Display;
+font-size: 72px;
+font-weight: 400;
+line-height: 64px;
+letter-spacing: -1px;
+text-align: left;
+width: 540px;
+height: 140px;
+}
+
+#hero p{
+    color: rgb(255, 255, 255);
+font-family: Karla;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0px;
+text-align: left;
+margin-top: 16px;
+width: 540px;
+height: 84px;
+}
+
+#hero button{
+    background-color: transparent;
+    border: 1.5px solid white;
+    color: rgb(255, 255, 255);
+font-family: Karla;
+font-size: 13px;
+font-weight: 700;
+line-height: 15px;
+letter-spacing: 1.5px;
+text-align: center;
+width: 146px;
+height: 40px;
+margin-top: 20px;
+}
+
+#hero img{
+    position: relative;
+    top: 80px;
+    width: 400px;
+    left: 100px;
+    height: 350px;
+    
+}
+
+.erta{
+    background: rgb(150, 169, 198);
+    width: 86px;
+height: 86px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 80px;
+}
+
+#yutube{
+    padding: 31px 168px;
+    margin-top: 100px;
+}
+
+#yutube h1{
+    color: rgb(44, 40, 48);
+font-family: DM Serif Display;
+font-size: 72px;
+font-weight: 400;
+line-height: 64px;
+letter-spacing: -1px;
+text-align: left;
+}
+
+#yutube .container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.erma h5{
+    color: rgb(44, 40, 48);
+font-family: DM Serif Display;
+font-size: 28px;
+font-weight: 400;
+line-height: 38px;
+letter-spacing: -0.39px;
+text-align: left;
+}
+
+.erma p{
+    color: rgb(131, 125, 136);
+font-family: Karla;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0px;
+text-align: left;
+width: 300px;
+height: 78px;
+
+}
+
+#denta{
+    padding: 31px 168px;
+}
+
+#denta .container{
+    width: 100%;
+    background-color: rgb(45, 38, 65);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    flex-wrap: wrap;
+}
+
+#denta h1{
+    color: rgb(255, 255, 255);
+font-family: DM Serif Display;
+font-size: 56px;
+font-weight: 400;
+line-height: 56px;
+letter-spacing: -0.78px;
+text-align: left;
+width: 475px;
+height: 112px;
+}
+
+#denta button{
+    background-color: transparent;
+    border: 1.5px solid white;
+    color: rgb(255, 255, 255);
+font-family: Karla;
+font-size: 13px;
+font-weight: 700;
+line-height: 15px;
+letter-spacing: 1.5px;
+text-align: center;
+width: 146px;
+height: 40px;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card h5{
+    color: rgb(131, 125, 136);
+font-family: Karla;
+font-size: 13px;
+font-weight: 700;
+line-height: 15px;
+letter-spacing: 1.5px;
+text-align: left;
+}
+
+footer{
+    padding: 31px 168px;
+}
+
+.card2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.card p{
+    color: rgb(45, 38, 65);
+font-family: Karla;
+font-size: 13px;
+font-weight: 700;
+line-height: 15px;
+letter-spacing: 1.5px;
+text-align: left;
+}
+
+footer .container{
+   flex-wrap: wrap; 
+}
+
+
+.gap{
+    display: flex;
+    gap: 20px;
+}
+
+@media (max-width:576px) {
+    .red{
+        display: none;
+    }
+
+    .btn-menyu{
+        display: block;
+    }
+
+    #hero .container{
+        flex-wrap: wrap-reverse;
+    }
+    
+    .tiuy{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #hero img{
+        margin-left: -100px;
+        margin-bottom: 100px;
+        width: 500px;
+        
+    }
+
+    #yutube{
+        padding: 24px 31px;
+    }
+    #hero{
+        padding: 24px 31px;
+    }
+    header{
+        padding: 24px 31px;
+    }
+
+    .erma{
+        
+        margin: auto;
+    }
+
+    .erta{
+        margin: auto;
+    }
+
+    .oil{
+        margin: auto;
+    }
+    .oil{
+        margin: auto;
+    }
+
+    #denta .container{
+        width: 100%;
+
+        margin: auto;
+    }
+
+    #denta{
+        padding: 24px 31px;
+    }
+
+    #denta button{
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+
+    #denta h1{
+        text-align: center;
+    }
+
+    .content{
+        margin: auto;
+    }
+
+    .card{
+        margin-top: 100px;
+    }
+
+    .gap{
+        margin-top: 40px;
+    }
+
+    .content img{
+        margin: auto;
+    }
+
+    .card2{
+        margin: auto;
+    }
+}
